@@ -19,7 +19,7 @@ class _AppInstagramScreenState extends State<AppInstagramScreen> {
       body: Stack(
         children: [
           WebView(
-            initialUrl: 'https://www.instagram.com/__ssantoshh__/',
+            initialUrl: 'https://www.instagram.com',
             javascriptMode: JavascriptMode.unrestricted,
             onProgress: (loadProgress) {
               setState(() {

@@ -19,7 +19,7 @@ class _AppFacebookScreenState extends State<AppFacebookScreen> {
       body: Stack(
         children: [
           WebView(
-            initialUrl: 'https://www.facebook.com/santosh.lamichhane.188478',
+            initialUrl: 'https://www.facebook.com',
             javascriptMode: JavascriptMode.unrestricted,
             onProgress: (loadProgress) {
               setState(() {

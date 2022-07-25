@@ -19,7 +19,7 @@ class _AppTwitterScreenState extends State<AppTwitterScreen> {
       body: Stack(
         children: [
           WebView(
-            initialUrl: 'https://twitter.com/Santosh53745785',
+            initialUrl: 'https://twitter.com',
             javascriptMode: JavascriptMode.unrestricted,
             onProgress: (loadProgress) {
               setState(() {
